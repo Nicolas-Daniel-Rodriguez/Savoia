@@ -8,10 +8,49 @@
         "colors": ["Azul", "Verde", "Negro"],
         "sizes": ["S", "M", "L"],
         "availability": "En stock"
-    },
-    
+    },  
     {
         "name": "woman 22 Sweatshirt",
+        "price": 47.99,
+        "code": "#56843265",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellat, sequi doloremque accusamus, voluptates nihil commodi necessitatibus, ullam fugit ea a illo maxime repudiandae. Iusto totam nemo nam ullam officiis?",
+        "images": ["img/item-1.png"],
+        "colors": ["Verde", "Azul", "Negro"],
+        "sizes": ["S", "M", "L"],
+        "availability": "En stock"
+    },
+    {
+        "name": "woman 3",
+        "price": 47.99,
+        "code": "#56843265",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellat, sequi doloremque accusamus, voluptates nihil commodi necessitatibus, ullam fugit ea a illo maxime repudiandae. Iusto totam nemo nam ullam officiis?",
+        "images": ["img/item-1.png"],
+        "colors": ["Verde", "Azul", "Negro"],
+        "sizes": ["S", "M", "L"],
+        "availability": "En stock"
+    },
+    {
+        "name": "woman 4",
+        "price": 47.99,
+        "code": "#56843265",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellat, sequi doloremque accusamus, voluptates nihil commodi necessitatibus, ullam fugit ea a illo maxime repudiandae. Iusto totam nemo nam ullam officiis?",
+        "images": ["img/item-1.png"],
+        "colors": ["Verde", "Azul", "Negro"],
+        "sizes": ["S", "M", "L"],
+        "availability": "En stock"
+    },
+    {
+        "name": "woman 5",
+        "price": 47.99,
+        "code": "#56843265",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellat, sequi doloremque accusamus, voluptates nihil commodi necessitatibus, ullam fugit ea a illo maxime repudiandae. Iusto totam nemo nam ullam officiis?",
+        "images": ["img/item-1.png"],
+        "colors": ["Verde", "Azul", "Negro"],
+        "sizes": ["S", "M", "L"],
+        "availability": "En stock"
+    },
+    {
+        "name": "woman 6",
         "price": 47.99,
         "code": "#56843265",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellat, sequi doloremque accusamus, voluptates nihil commodi necessitatibus, ullam fugit ea a illo maxime repudiandae. Iusto totam nemo nam ullam officiis?",
