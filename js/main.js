@@ -81,37 +81,31 @@ slider(activeImg);
 
 
 
-
-
 document.addEventListener('DOMContentLoaded', function() {
-    // Compartir enlace en WhatsApp
-    document.querySelectorAll('.shareWhatsappBtn').forEach(btn => {
-        btn.addEventListener('click', function(event) {
-            event.preventDefault(); // Evita el comportamiento por defecto del botón
+    // Delegación de eventos para botones compartidos y de copia
+    document.addEventListener('click', function(event) {
+        const target = event.target;
 
-            // Obtiene el enlace del producto desde el contenedor de la tarjeta
-            const productLink = this.closest('.card').querySelector('.btn--mini-rounded[href*="producto.html"]').href;
+        if (target.classList.contains('shareWhatsappBtn')) {
+            event.preventDefault();
+            const productLink = target.closest('.card').querySelector('.btn--mini-rounded[href*="producto.html"]').href;
             const whatsappLink = `https://wa.me/?text=${encodeURIComponent(productLink)}`;
-            console.log('Compartir en WhatsApp:', whatsappLink); // Verifica el enlace en la consola
+            console.log('Compartir en WhatsApp:', whatsappLink);
             window.open(whatsappLink, '_blank');
-        });
-    });
+        }
 
-    // Copiar enlace al portapapeles
-    document.querySelectorAll('.copyLinkBtn').forEach(btn => {
-        btn.addEventListener('click', function(event) {
-            event.preventDefault(); // Evita el comportamiento por defecto del botón
-
-            // Obtiene el enlace del producto desde el contenedor de la tarjeta
-            const productLink = this.closest('.card').querySelector('.btn--mini-rounded[href*="producto.html"]').href;
+        if (target.classList.contains('copyLinkBtn')) {
+            event.preventDefault();
+            const productLink = target.closest('.card').querySelector('.btn--mini-rounded[href*="producto.html"]').href;
             navigator.clipboard.writeText(productLink).then(function() {
                 alert('Enlace copiado al portapapeles');
             }, function(err) {
                 console.error('Error al copiar el enlace: ', err);
             });
-        });
+        }
     });
 });
+
 
 
 // script de la navegacipon por tabs

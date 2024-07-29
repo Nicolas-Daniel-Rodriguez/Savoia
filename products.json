@@ -2,9 +2,9 @@
     {
         "name": "Classic 12 Sweatshirt",
         "price": 89.99,
-        "code": "#56843265",
+        "code": "001",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellat, sequi doloremque accusamus, voluptates nihil commodi necessitatibus, ullam fugit ea a illo maxime repudiandae. Iusto totam nemo nam ullam officiis?",
-        "images": ["img/item-1.png", "img/item-2.png", "img/item-5.png"],
+        "images": ["img/item-1.png", "img/item-2.png"],
         "colors": ["Azul", "Verde", "Negro"],
         "sizes": ["S", "M", "L"],
         "availability": "En stock"
@@ -12,9 +12,9 @@
     {
         "name": "woman 22 Sweatshirt",
         "price": 47.99,
-        "code": "#56843265",
+        "code": "002",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellat, sequi doloremque accusamus, voluptates nihil commodi necessitatibus, ullam fugit ea a illo maxime repudiandae. Iusto totam nemo nam ullam officiis?",
-        "images": ["img/item-1.png"],
+        "images": ["img/item-3.png"],
         "colors": ["Verde", "Azul", "Negro"],
         "sizes": ["S", "M", "L"],
         "availability": "En stock"
@@ -22,9 +22,9 @@
     {
         "name": "woman 3",
         "price": 47.99,
-        "code": "#56843265",
+        "code": "003",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellat, sequi doloremque accusamus, voluptates nihil commodi necessitatibus, ullam fugit ea a illo maxime repudiandae. Iusto totam nemo nam ullam officiis?",
-        "images": ["img/item-1.png"],
+        "images": ["img/item-4.png"],
         "colors": ["Verde", "Azul", "Negro"],
         "sizes": ["S", "M", "L"],
         "availability": "En stock"
@@ -32,9 +32,9 @@
     {
         "name": "woman 4",
         "price": 47.99,
-        "code": "#56843265",
+        "code": "004",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellat, sequi doloremque accusamus, voluptates nihil commodi necessitatibus, ullam fugit ea a illo maxime repudiandae. Iusto totam nemo nam ullam officiis?",
-        "images": ["img/item-1.png"],
+        "images": ["img/item-5.png"],
         "colors": ["Verde", "Azul", "Negro"],
         "sizes": ["S", "M", "L"],
         "availability": "En stock"
@@ -42,9 +42,9 @@
     {
         "name": "woman 5",
         "price": 47.99,
-        "code": "#56843265",
+        "code": "005",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellat, sequi doloremque accusamus, voluptates nihil commodi necessitatibus, ullam fugit ea a illo maxime repudiandae. Iusto totam nemo nam ullam officiis?",
-        "images": ["img/item-1.png"],
+        "images": ["img/item-6.png"],
         "colors": ["Verde", "Azul", "Negro"],
         "sizes": ["S", "M", "L"],
         "availability": "En stock"
@@ -52,9 +52,9 @@
     {
         "name": "woman 6",
         "price": 47.99,
-        "code": "#56843265",
+        "code": "006",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellat, sequi doloremque accusamus, voluptates nihil commodi necessitatibus, ullam fugit ea a illo maxime repudiandae. Iusto totam nemo nam ullam officiis?",
-        "images": ["img/item-1.png"],
+        "images": ["img/item-7.png"],
         "colors": ["Verde", "Azul", "Negro"],
         "sizes": ["S", "M", "L"],
         "availability": "En stock"
