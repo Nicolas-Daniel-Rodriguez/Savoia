@@ -839,20 +839,38 @@ footer {
     padding: 0.5rem;
     display: none;
     position: absolute;
-    top: 100%;
     background: #ffffff;
     z-index: 10;
-    width: 100%;
+    width: 100%; 
+    overflow: auto;
 }
 
 .card-buttons {
     text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    }
 
 .card-buttons a {
     margin-left: 10px;
+}
+
+/* Media query para pantallas grandes (computadoras) */
+@media (min-width: 768px) {
+    .card-info {
+        left: 100%; /* Posiciona .card-info al costado derecho de la tarjeta */
+        top: 0; /* Alinea con la parte superior de la tarjeta */
+        height: 100%;
+    }
+}
+
+/* Media query para pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+    .card-info {
+        left: 0; /* Resetea la posición horizontal */
+        top: 100%; /* Coloca .card-info debajo de la tarjeta */
+        
+    }
 }
 
 @media screen and (max-width: 320px) {

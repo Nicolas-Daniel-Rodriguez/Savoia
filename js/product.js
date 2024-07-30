@@ -92,13 +92,13 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <span class="price">$${product.price}</span>
                                 <img src="${product.images[0]}" alt="${product.name}">
                                 <div class="card-info">
-                                    <h4 class="has-text-black has-text-centered has-text-weight-bold">${product.name}</h4>
-                                    <p class="has-text-centered">${product.description}</p>
+                                    <h4 class="has-text-black has-text-centered has-text-weight-bold" style="font-size: 1.3rem;">${product.name}</h4>
                                     <div class="card-buttons">
                                         <a href="#" class="shareWhatsappBtn btn btn--mini-rounded"><i class="zmdi zmdi-whatsapp"></i></a>
                                         <a href="#" class="copyLinkBtn btn btn--mini-rounded"><i class="zmdi zmdi-copy"></i></a>
                                         <a href="producto.html?id=${product.code}" class="btn btn--mini-rounded"><i class="zmdi zmdi-eye"></i></a>
                                     </div>
+                                    <p class="has-text-centered">${product.description}</p>
                                 </div>
                             </div>
                         </div>    
